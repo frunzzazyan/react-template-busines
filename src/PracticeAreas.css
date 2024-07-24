@@ -1,0 +1,43 @@
+.items-practic{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    &>.item-practic{
+        width: 400px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-inline: 20px;
+        &>h3{
+            width: 100%;
+            color: black  ;
+            text-align: start;
+        }
+        &>img{
+            width: 90%;
+            height: 250px;
+        }
+    }
+    &>.pages{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        &>.page{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.legal-items{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    &>.legal-item{
+        width: 300px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 30px;
+        color: gray;
+        &>span>h3{
+            color: black;
+            display: inline;
+        }
+        &>p{
+            color: black;
+        }
+        &>img{
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            border-radius: 50%;
+        }
+    }
+}
